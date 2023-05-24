@@ -10,6 +10,7 @@ def convert_mp4_to_gif(input_file, output_file, fps=10):
 
 
 def main():
+    st.set_page_config(page_title="MP4 to GIF Converter")
     st.title("🎬 MP4 to GIF Converter")
 
     # File upload section
